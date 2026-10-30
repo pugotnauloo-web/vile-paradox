@@ -3,7 +3,7 @@ const members = [
   { name:'Noelle', full:'Noelle Francis', role:'Lead vocalist / Electric violin', number:'01', initial:'N', hue:'#642d3d', photo:'assets/portraits/noelle.webp',
     description:'The magnetic frontwoman. Sharp humor, golden-hazel eyes, a fearless stage presence, and an electric violin that can cut straight through the noise.',
     note:'THE VOICE / THE SPARK' },
-  { name:'Iori', full:'Iori Tetsurou', role:'Keys / Second vocals / Lyrics', number:'02', initial:'I', hue:'#433365', photo:'assets/portraits/iori.png',
+  { name:'Iori', full:'Iori Tetsurou', role:'Keys / Second vocals / Lyrics', number:'02', initial:'I', hue:'#433365', photo:'assets/portraits/iori.webp',
     description:'Whimsical, observant and endlessly inventive. Iori layers hauntingly soft vocals, atmospheric keys and intricately personal lyrics into the heart of the band.',
     note:'THE GHOST NOTE / THE WORDS' },
   { name:'Scarle', full:'Scarle Avila', role:'Guitar', number:'03', initial:'S', hue:'#59323c', photo:'assets/portraits/scarle.webp',
