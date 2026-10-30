@@ -43,7 +43,7 @@ function portraitHtml(item) {
 membersGrid.innerHTML = members.map(person => `
   <button class="member-card" type="button" data-member="${person.name.toLowerCase()}" aria-label="Learn more about ${person.full}">
     ${portraitHtml(person)}
-    <span class="member-card-tag">V/P — PERSONNEL</span><span class="member-number">${person.number} / 05</span>
+    <span class="member-card-tag">V/P — MEMBER</span><span class="member-number">${person.number} / 05</span>
     <div class="member-copy"><span class="member-arrow" aria-hidden="true">↗</span><h3>${person.name.toUpperCase()}</h3><p>${person.role.toUpperCase()}</p></div>
   </button>`).join('');
 
