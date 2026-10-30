@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" preserveAspectRatio="xMidYMid slice">
+<defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".20"/></feComponentTransfer></filter><filter id="blur"><feGaussianBlur stdDeviation="38"/></filter><linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#010106" stop-opacity=".4"/><stop offset=".5" stop-color="#010106" stop-opacity="0"/><stop offset="1" stop-color="#010106" stop-opacity=".86"/></linearGradient></defs><rect width="1200" height="1400" fill="#100f13"/>
+<polygon points="220,0 980,0 760,1400 445,1400" fill="#211b22"/>
+<polygon points="220,0 0,0 0,1400 445,1400" fill="#0c0b0d"/>
+<polygon points="980,0 1200,0 1200,1400 760,1400" fill="#090a0d"/>
+<polygon points="0,1400 1200,1400 760,620 445,620" fill="#282329"/>
+<rect x="427" y="130" width="347" height="490" fill="#0a090c" stroke="#6b4045" stroke-width="5"/>
+<rect x="477" y="185" width="250" height="375" fill="#702d35" opacity=".45"/>
+<rect x="518" y="210" width="157" height="280" fill="#ca6c74" opacity=".15" filter="url(#blur)"/>
+<path d="M220 0 L445 620 L0 1400" stroke="#786368" stroke-width="3" opacity=".3"/>
+<path d="M980 0 L760 620 L1200 1400" stroke="#786368" stroke-width="3" opacity=".3"/>
+<rect x="93" y="670" width="250" height="460" rx="7" fill="#1d1c20" stroke="#4f454a" stroke-width="9"/>
+<rect x="120" y="708" width="198" height="14" fill="#4e4045"/><circle cx="148" cy="1080" r="10" fill="#6f545a"/><circle cx="289" cy="1080" r="10" fill="#6f545a"/>
+<rect x="833" y="830" width="244" height="220" rx="10" fill="#111013" stroke="#57494c" stroke-width="8"/>
+<path d="M890 826 Q947 717 1012 826" fill="none" stroke="#4e3c41" stroke-width="22"/>
+<rect x="130" y="90" width="220" height="60" fill="#3d2328"/><text x="157" y="130" fill="#bc7c82" font-family="monospace" font-size="24" letter-spacing="6">BACKSTAGE</text>
+<text x="120" y="1280" fill="#a49a9f" font-family="monospace" font-size="25" letter-spacing="10">CORRIDOR / B</text>
+<rect width="100%" height="100%" fill="url(#vignette)"/><rect width="100%" height="100%" filter="url(#grain)" opacity=".32"/></svg>

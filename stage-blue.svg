@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" preserveAspectRatio="xMidYMid slice">
+<defs><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch" result="n"/><feColorMatrix in="n" type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".20"/></feComponentTransfer></filter><filter id="blur"><feGaussianBlur stdDeviation="38"/></filter><linearGradient id="vignette" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#010106" stop-opacity=".4"/><stop offset=".5" stop-color="#010106" stop-opacity="0"/><stop offset="1" stop-color="#010106" stop-opacity=".86"/></linearGradient></defs><rect width="1200" height="1400" fill="#050911"/>
+<rect y="890" width="1200" height="510" fill="#030408"/>
+<ellipse cx="600" cy="1040" rx="700" ry="200" fill="#233d64" opacity=".4" filter="url(#blur)"/>
+<circle cx="620" cy="620" r="370" fill="none" stroke="#648ab9" stroke-opacity=".12" stroke-width="10"/>
+<circle cx="620" cy="620" r="335" fill="none" stroke="#d35e78" stroke-opacity=".17" stroke-width="3"/>
+<polygon points="70,90 100,1250 700,1250" fill="#2f6cbe" opacity="0.32"/><circle cx="70" cy="90" r="13" fill="#eff8ff" opacity=".9"/><circle cx="70" cy="90" r="43" fill="#2f6cbe" opacity=".22" filter="url(#blur)"/><ellipse cx="70" cy="740" rx="210" ry="600" fill="#2f6cbe" opacity="0.18" filter="url(#blur)"/><polygon points="295,90 170,1250 770,1250" fill="#748be6" opacity="0.36"/><circle cx="295" cy="90" r="13" fill="#eff8ff" opacity=".9"/><circle cx="295" cy="90" r="43" fill="#748be6" opacity=".22" filter="url(#blur)"/><ellipse cx="295" cy="740" rx="210" ry="600" fill="#748be6" opacity="0.18" filter="url(#blur)"/><polygon points="520,90 370,1250 970,1250" fill="#2d85de" opacity="0.4"/><circle cx="520" cy="90" r="13" fill="#eff8ff" opacity=".9"/><circle cx="520" cy="90" r="43" fill="#2d85de" opacity=".22" filter="url(#blur)"/><ellipse cx="520" cy="740" rx="210" ry="600" fill="#2d85de" opacity="0.18" filter="url(#blur)"/><polygon points="830,90 515,1250 1115,1250" fill="#c12f56" opacity="0.15"/><circle cx="830" cy="90" r="13" fill="#eff8ff" opacity=".9"/><circle cx="830" cy="90" r="43" fill="#c12f56" opacity=".22" filter="url(#blur)"/><ellipse cx="830" cy="740" rx="210" ry="600" fill="#c12f56" opacity="0.18" filter="url(#blur)"/><polygon points="1070,90 760,1250 1360,1250" fill="#3a80da" opacity="0.33"/><circle cx="1070" cy="90" r="13" fill="#eff8ff" opacity=".9"/><circle cx="1070" cy="90" r="43" fill="#3a80da" opacity=".22" filter="url(#blur)"/><ellipse cx="1070" cy="740" rx="210" ry="600" fill="#3a80da" opacity="0.18" filter="url(#blur)"/><!-- drum kit behind band -->
+<ellipse cx="627" cy="877" rx="126" ry="96" fill="#07090e" stroke="#30435c" stroke-width="8"/>
+<circle cx="627" cy="877" r="61" fill="#101622" stroke="#466181" stroke-width="6"/>
+<line x1="627" y1="973" x2="627" y2="1180" stroke="#090a0d" stroke-width="17"/>
+<path d="M476 805 L468 1070M763 810 L768 1068" stroke="#05060a" stroke-width="15"/>
+<ellipse cx="477" cy="788" rx="110" ry="16" fill="#08090c" stroke="#6b7495" stroke-width="3"/>
+<ellipse cx="766" cy="804" rx="125" ry="19" fill="#08090c" stroke="#6b7495" stroke-width="3"/>
+<path d="M578 732 Q560 656 619 648 Q681 660 677 729 L708 815 L545 815Z" fill="#06070b"/>
+<circle cx="624" cy="610" r="54" fill="#04050a"/>
+<!-- left guitarist -->
+<path d="M205 740 Q180 708 173 654 Q167 618 206 610 Q257 607 268 658 L283 739 L318 1088 L220 1104 L190 1089 L155 925Z" fill="#02040a"/>
+<path d="M195 1088 L178 1330 L227 1330 L251 1080M275 1082 L307 1340 L351 1340 L315 1072" fill="#020308"/>
+<circle cx="221" cy="577" r="64" fill="#020309"/>
+<path d="M153 676 L281 832 L379 853" fill="none" stroke="#020308" stroke-width="43" stroke-linecap="round"/>
+<path d="M142 798 Q304 740 385 850 Q375 931 305 955 Q170 956 142 798Z" fill="#07090e" stroke="#1d314c" stroke-width="7"/>
+<path d="M335 855 L553 754" stroke="#050609" stroke-width="29" stroke-linecap="round"/>
+<path d="M338 853 L552 749" stroke="#7388a3" stroke-width="4" opacity=".32"/>
+<!-- center vocalist -->
+<circle cx="491" cy="542" r="64" fill="#020307"/>
+<path d="M430 527 Q427 465 488 463 Q559 467 551 562 L533 636 L444 629Z" fill="#010307"/>
+<path d="M458 619 Q489 602 531 621 L566 870 L535 1163 L453 1165 L418 863Z" fill="#020307"/>
+<path d="M451 1140 L422 1392 L476 1400 L512 1148M530 1153 L568 1400 L618 1400 L561 1142" fill="#020207"/>
+<path d="M432 672 L378 815 L308 840" fill="none" stroke="#020307" stroke-width="31" stroke-linecap="round"/>
+<path d="M545 663 L617 771 L672 735" fill="none" stroke="#030407" stroke-width="30" stroke-linecap="round"/>
+<path d="M540 741 L707 690" stroke="#8fa6bc" stroke-width="9" opacity=".28"/>
+<path d="M689 664 L715 818" stroke="#08080d" stroke-width="9"/>
+<!-- keys at center-right -->
+<path d="M667 886 L950 886 L981 945 L645 945Z" fill="#030409" stroke="#41556d" stroke-width="7"/>
+<path d="M681 903 L948 902" stroke="#a9bfd2" opacity=".33" stroke-width="17" stroke-dasharray="14 5"/>
+<path d="M690 944 L666 1320 M940 944 L988 1320" stroke="#05060a" stroke-width="17"/>
+<!-- keyboardist -->
+<circle cx="811" cy="635" r="60" fill="#020307"/>
+<path d="M756 632 Q724 594 753 528 Q773 491 817 510 Q867 490 874 559 L862 699 L766 701Z" fill="#020307"/>
+<path d="M771 704 L848 704 L884 900 L875 1136 L761 1139 L730 903Z" fill="#030307"/>
+<path d="M769 1093 L733 1400 L785 1400 L823 1100 M848 1100 L882 1400 L926 1400 L883 1093" fill="#030307"/>
+<path d="M774 754 L710 865 M848 745 L899 873" stroke="#020307" stroke-width="31" stroke-linecap="round"/>
+<!-- right bassist -->
+<circle cx="1059" cy="559" r="59" fill="#020307"/>
+<path d="M1003 615 L1100 609 L1152 862 L1123 1095 L1017 1101 L974 838Z" fill="#030308"/>
+<path d="M1023 1095 L1000 1400 L1050 1400 L1092 1090 M1110 1090 L1153 1400 L1196 1400 L1148 1080" fill="#020308"/>
+<path d="M998 690 L896 807 L825 832" fill="none" stroke="#020307" stroke-width="34" stroke-linecap="round"/>
+<path d="M1121 704 L1169 830" stroke="#020307" stroke-width="38" stroke-linecap="round"/>
+<ellipse cx="1060" cy="875" rx="77" ry="103" transform="rotate(31 1060 875)" fill="#05060a" stroke="#22466d" stroke-width="7"/>
+<path d="M1031 842 L823 705" stroke="#030309" stroke-width="25" stroke-linecap="round"/>
+<path d="M1031 842 L823 705" stroke="#7f98b4" stroke-width="4" opacity=".24"/>
+<rect x="0" y="1320" width="1200" height="80" fill="#020205"/>
+<rect width="100%" height="100%" fill="url(#vignette)"/><rect width="100%" height="100%" filter="url(#grain)" opacity=".32"/></svg>
