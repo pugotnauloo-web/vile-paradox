@@ -120,7 +120,6 @@ membersGrid.innerHTML = members.map(person => `
     <div class="member-copy"><span class="member-arrow" aria-hidden="true">↗</span><h3>${person.name.toUpperCase()}</h3><p>${person.role.toUpperCase()}</p></div>
   </button>`).join('');
 
-function openProfile(person) {
 let activeProfilePhotos = [];
 let activeProfileIndex = 0;
 
