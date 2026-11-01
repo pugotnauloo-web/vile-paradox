@@ -127,19 +127,19 @@ membersGrid.innerHTML = members.map(person => `
   </button>`).join('');
 
 function openProfile(person) {
+
 let activeProfilePhotos = [];
 let activeProfileIndex = 0;
 
 function updateProfilePhoto() {
   const image = $('#profile-photo');
-  if (!image || !activeProfilePhotos.length) return;
+  const counter = $('#profile-photo-count');
+
+  if (!image || !counter || !activeProfilePhotos.length) return;
 
   image.style.opacity = '0';
   image.src = activeProfilePhotos[activeProfileIndex];
-
-  const counter = $('#profile-photo-count');
-
-  image.alt = `Portrait of ${activeProfilePhotos[activeProfileIndex]}`;
+  image.alt = 'Member portrait';
 
   counter.textContent =
     `${String(activeProfileIndex + 1).padStart(2, '0')} / ${String(activeProfilePhotos.length).padStart(2, '0')}`;
@@ -178,7 +178,7 @@ function openProfile(person) {
     <img
       id="profile-photo"
       src=""
-      alt=""
+      alt="Portrait of ${person.full}"
       onload="this.style.opacity='1'"
       onerror="this.style.opacity='0'"
     >
@@ -224,13 +224,13 @@ function openProfile(person) {
   document.body.classList.add('modal-open');
 }
 
-}
 $('#dialog-picture').addEventListener('click', (e) => {
   const arrow = e.target.closest('[data-profile-step]');
   if (!arrow) return;
 
   stepProfilePhoto(Number(arrow.dataset.profileStep));
 });
+
 
 membersGrid.addEventListener('click', (e) => {
   const card = e.target.closest('[data-member]');
