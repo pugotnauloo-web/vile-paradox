@@ -10,7 +10,7 @@ const members = [
     photo:'assets/portraits/noelle.webp',
     photos:[
       'assets/portraits/noelle.webp',
-      'assets/portraits/noelle-2.webp'
+      'assets/portraits/noelle.webp.png'
     ],
     description:'The magnetic frontwoman. Sharp humor, golden-hazel eyes, a fearless stage presence, and an electric violin that can cut straight through the noise.',
     note:'THE VOICE / THE SPARK'
@@ -86,8 +86,8 @@ const manager = {
   hue:'#3c3b42',
   photo:'assets/portraits/devon.webp',
   photos:[
-    'assets/portraits/devon.webp',
-    'assets/portraits/devon-2.webp'
+    'assets/portraits/devonn.webp.png',
+    'assets/portraits/devonn-2.webp.png'
   ],
   description:'The one steering the chaos without trying to be in the spotlight. Devon handles the band’s world — strategy, venues, deals and the occasional crisis. Not a performing member.',
   note:'THE STRATEGY / THE STEADY HAND'
