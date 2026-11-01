@@ -94,11 +94,6 @@ const manager = {
   note:'THE STRATEGY / THE STEADY HAND'
 };
 
-];
-const manager = { name:'Devon', full:'Devon Schorling', role:'Manager', number:'MGT', initial:'D', hue:'#3c3b42', photo:'assets/portraits/devonn.webp.png',
-  description:'The one steering the chaos without trying to be in the spotlight. Devon handles the band’s world — strategy, venues, deals and the occasional crisis. Not a performing member.',
-  note:'THE STRATEGY / THE STEADY HAND' };
-
 // Replace an image path with your own image (JPG, PNG, or WebP) to customize the gallery.
 const gallery = [
   { title:'BLUE HOUR', category:'live', image:'assets/art/stage-blue.svg', alt:'Stylized silhouettes of musicians beneath blue concert lights' },
