@@ -127,15 +127,103 @@ membersGrid.innerHTML = members.map(person => `
   </button>`).join('');
 
 function openProfile(person) {
+let activeProfilePhotos = [];
+let activeProfileIndex = 0;
+
+function updateProfilePhoto() {
+  const image = $('#profile-photo');
+  if (!image || !activeProfilePhotos.length) return;
+
+  image.style.opacity = '0';
+  image.src = activeProfilePhotos[activeProfileIndex];
+
+  const counter = $('#profile-photo-count');
+
+  image.alt = `Portrait of ${activeProfilePhotos[activeProfileIndex]}`;
+
+  counter.textContent =
+    `${String(activeProfileIndex + 1).padStart(2, '0')} / ${String(activeProfilePhotos.length).padStart(2, '0')}`;
+
+  const showArrows = activeProfilePhotos.length > 1;
+
+  $('#profile-prev').hidden = !showArrows;
+  $('#profile-next').hidden = !showArrows;
+  counter.hidden = !showArrows;
+}
+
+function stepProfilePhoto(direction) {
+  if (activeProfilePhotos.length < 2) return;
+
+  activeProfileIndex =
+    (activeProfileIndex + direction + activeProfilePhotos.length)
+    % activeProfilePhotos.length;
+
+  updateProfilePhoto();
+}
+
+function openProfile(person) {
   const picture = $('#dialog-picture');
-  picture.style.background = `radial-gradient(circle at 50% 28%, ${person.hue}, #101014 80%)`;
-  picture.innerHTML = `<span class="profile-initial" aria-hidden="true">${person.initial}</span><img src="${person.photo}" alt="Portrait of ${person.full}" onerror="this.remove()">`;
-  $('#dialog-overline').textContent = `${person.number} / VILE PARADOX PERSONNEL`;
+
+  picture.style.background =
+    `radial-gradient(circle at 50% 28%, ${person.hue}, #101014 80%)`;
+
+  activeProfilePhotos = person.photos || [person.photo];
+  activeProfileIndex = 0;
+
+  picture.innerHTML = `
+    <span class="profile-initial" aria-hidden="true">
+      ${person.initial}
+    </span>
+
+    <img
+      id="profile-photo"
+      src=""
+      alt=""
+      onload="this.style.opacity='1'"
+      onerror="this.style.opacity='0'"
+    >
+
+    <button
+      class="profile-nav profile-prev"
+      id="profile-prev"
+      type="button"
+      data-profile-step="-1"
+      aria-label="Previous photo">
+      ‹
+    </button>
+
+    <span
+      class="profile-count"
+      id="profile-photo-count"
+      aria-live="polite">
+    </span>
+
+    <button
+      class="profile-nav profile-next"
+      id="profile-next"
+      type="button"
+      data-profile-step="1"
+      aria-label="Next photo">
+      ›
+    </button>
+  `;
+
+  updateProfilePhoto();
+
+  $('#dialog-overline').textContent =
+    `${person.number} / VILE PARADOX PERSONNEL`;
+
   $('#dialog-name').textContent = person.name.toUpperCase();
   $('#dialog-role').textContent = person.role.toUpperCase();
   $('#dialog-description').textContent = person.description;
-  $('#dialog-fact').textContent = `${person.full.toUpperCase()}  //  ${person.note}`;
-  memberDialog.showModal(); document.body.classList.add('modal-open');
+
+  $('#dialog-fact').textContent =
+    `${person.full.toUpperCase()} // ${person.note}`;
+
+  memberDialog.showModal();
+  document.body.classList.add('modal-open');
+}
+
 }
 membersGrid.addEventListener('click', (e) => {
   const card = e.target.closest('[data-member]');
