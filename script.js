@@ -285,7 +285,13 @@ $$('[data-close-dialog]').forEach(button => button.addEventListener('click', () 
   dialog.addEventListener('close', () => document.body.classList.remove('modal-open'));
   dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
 });
-window.addEventListener('keydown',e => { if (galleryDialog.open && e.key === 'ArrowRight') stepGallery(1); if (galleryDialog.open && e.key === 'ArrowLeft') stepGallery(-1); });
+window.addEventListener('keydown', e => {
+  if (galleryDialog.open && e.key === 'ArrowRight') stepGallery(1);
+  if (galleryDialog.open && e.key === 'ArrowLeft') stepGallery(-1);
+
+  if (memberDialog.open && e.key === 'ArrowRight') stepProfilePhoto(1);
+  if (memberDialog.open && e.key === 'ArrowLeft') stepProfilePhoto(-1);
+});
 
 const toggle = $('.menu-toggle');
 const mobileNav = $('#mobile-nav');
