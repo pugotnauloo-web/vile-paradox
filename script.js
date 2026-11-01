@@ -1,5 +1,4 @@
 /** VILE PARADOX — edit the arrays below to update profiles and gallery content. */
-
 const members = [
   {
     name:'Noelle',
