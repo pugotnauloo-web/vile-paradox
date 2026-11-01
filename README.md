@@ -1,7 +1,7 @@
 Add your actual character portraits here:
 
 - noelle.webp
-- iori.webp
+- iori.webp.png
 - scarle.webp
 - maeve.webp
 - xolani.webp
