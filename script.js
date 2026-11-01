@@ -225,6 +225,13 @@ function openProfile(person) {
 }
 
 }
+$('#dialog-picture').addEventListener('click', (e) => {
+  const arrow = e.target.closest('[data-profile-step]');
+  if (!arrow) return;
+
+  stepProfilePhoto(Number(arrow.dataset.profileStep));
+});
+
 membersGrid.addEventListener('click', (e) => {
   const card = e.target.closest('[data-member]');
   if (!card) return;
