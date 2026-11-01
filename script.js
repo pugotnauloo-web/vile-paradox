@@ -3,20 +3,20 @@ const members = [
   { name:'Noelle', full:'Noelle Francis', role:'Lead vocalist / Electric violin', number:'01', initial:'N', hue:'#642d3d', photo:'assets/portraits/noelle.webp',
     description:'The magnetic frontwoman. Sharp humor, golden-hazel eyes, a fearless stage presence, and an electric violin that can cut straight through the noise.',
     note:'THE VOICE / THE SPARK' },
-  { name:'Iori', full:'Iori Tetsurou', role:'Keys / Second vocals / Lyrics', number:'02', initial:'I', hue:'#433365', photo:'assets/portraits/iori.webp',
+  { name:'Iori', full:'Iori Tetsurou', role:'Keys / Second vocals / Lyrics', number:'02', initial:'I', hue:'#433365', photo:'assets/portraits/iori.webp.png',
     description:'Whimsical, observant and endlessly inventive. Iori layers hauntingly soft vocals, atmospheric keys and intricately personal lyrics into the heart of the band.',
     note:'THE GHOST NOTE / THE WORDS' },
-  { name:'Scarle', full:'Scarle Avila', role:'Guitar', number:'03', initial:'S', hue:'#59323c', photo:'assets/portraits/scarle.webp',
+  { name:'Scarle', full:'Scarle Avila', role:'Guitar', number:'03', initial:'S', hue:'#59323c', photo:'assets/portraits/scarle.webp.png',
     description:'An exacting guitarist with a warm heart, a fierce work ethic and the unofficial job of keeping everyone else from burning the place down.',
     note:'THE RIFF / THE ANCHOR' },
-  { name:'Maeve', full:'Maeve Healy', role:'Drums', number:'04', initial:'M', hue:'#293747', photo:'assets/portraits/maeve.webp',
+  { name:'Maeve', full:'Maeve Healy', role:'Drums', number:'04', initial:'M', hue:'#293747', photo:'assets/portraits/maeve.webp.png',
     description:'Almost unnervingly composed. Her playing is precise and powerful; her humor is dry enough to get lost between the beats.',
     note:'THE PULSE / THE STORM' },
-  { name:'Xolani', full:'Xolani Sinclair', role:'Bass guitar', number:'05', initial:'X', hue:'#5e3c33', photo:'assets/portraits/xolani.webp',
+  { name:'Xolani', full:'Xolani Sinclair', role:'Bass guitar', number:'05', initial:'X', hue:'#5e3c33', photo:'assets/portraits/xolani.webp.png',
     description:'Bold, unpredictable and impossible to ignore. Xolani brings magnetic, playful energy and a restless bassline to the stage.',
     note:'THE LOW END / THE WILDCARD' }
 ];
-const manager = { name:'Devon', full:'Devon Schorling', role:'Manager', number:'MGT', initial:'D', hue:'#3c3b42', photo:'assets/devonn.webp',
+const manager = { name:'Devon', full:'Devon Schorling', role:'Manager', number:'MGT', initial:'D', hue:'#3c3b42', photo:'assets/devonn.webp.png',
   description:'The one steering the chaos without trying to be in the spotlight. Devon handles the band’s world — strategy, venues, deals and the occasional crisis. Not a performing member.',
   note:'THE STRATEGY / THE STEADY HAND' };
 
