@@ -16,7 +16,7 @@ const members = [
     description:'Bold, unpredictable and impossible to ignore. Xolani brings magnetic, playful energy and a restless bassline to the stage.',
     note:'THE LOW END / THE WILDCARD' }
 ];
-const manager = { name:'Devon', full:'Devon', role:'Manager', number:'MGT', initial:'D', hue:'#3c3b42', photo:'assets/portraits/devon.webp',
+const manager = { name:'Devon', full:'Devon Schorling', role:'Manager', number:'MGT', initial:'D', hue:'#3c3b42', photo:'assets/portraits/devon.webp',
   description:'The one steering the chaos without trying to be in the spotlight. Devon handles the band’s world — strategy, venues, deals and the occasional crisis. Not a performing member.',
   note:'THE STRATEGY / THE STEADY HAND' };
 
