@@ -99,7 +99,7 @@ const gallery = [
   { title:'INNER FREQUENCIES', category:'artwork', image:'assets/portraits/staticinourminds.webp', alt:'Abstract red frequency artwork' },
   { title:'BEFORE THE NOISE', category:'backstage', image:'assets/art/backstage.svg', alt:'Minimal illustration of a backstage passageway' },
   { title:'AFTERIMAGE', category:'live', photos:'assets/portraits/red.png', alt:'Abstract red concert lights and shadowed audience' },
-  { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'Graphic purple keyboard and waveforms' },
+  { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'assets/portraits/red.png' },
   { title:'THE LAST ENCORE', category:'backstage', image:'assets/art/encore.svg', alt:'Moody empty stage after a live performance' }
 ];
 
