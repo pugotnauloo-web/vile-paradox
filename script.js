@@ -100,7 +100,7 @@ const gallery = [
   { title:'BEFORE THE NOISE', category:'backstage', image:'assets/portraits/837e9631-1f90-4058-b970-d72c418ce35c.png', alt:'assets/portraits/837e9631-1f90-4058-b970-d72c418ce35c.png' },
   { title:'AFTERIMAGE', category:'live', image:'assets/portraits/red.png', alt:'Red-lit live performance' },
   { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'Purple abstract static artwork' },
-  { title:'THE LAST ENCORE', category:'backstage', image:'assets/art/encore.svg', alt:'Moody empty stage after a live performance' }
+  { title:'THE LAST ENCORE', category:'backstage', image:'assets/portraits/95aa97b5-9955-4431-be52-814d90df62d3.png', alt:'assets/portraits/95aa97b5-9955-4431-be52-814d90df62d3.png' }
 ];
 
 const $ = (sel) => document.querySelector(sel);
