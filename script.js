@@ -97,7 +97,7 @@ const manager = {
 const gallery = [
   { title:'BLUE HOUR', category:'live', image:'assets/portraits/blue.png', alt:'Blue hour live performance' },
   { title:'INNER FREQUENCIES', category:'artwork', image:'assets/portraits/staticinourminds.webp', alt:'Abstract red frequency artwork' },
-  { title:'BEFORE THE NOISE', category:'backstage', image:'assets/art/backstage.svg', alt:'Minimal illustration of a backstage passageway' },
+  { title:'BEFORE THE NOISE', category:'backstage', image:'assets/portraits/837e9631-1f90-4058-b970-d72c418ce35c.png', alt:'assets/portraits/837e9631-1f90-4058-b970-d72c418ce35c.png' },
   { title:'AFTERIMAGE', category:'live', image:'assets/portraits/red.png', alt:'Red-lit live performance' },
   { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'Purple abstract static artwork' },
   { title:'THE LAST ENCORE', category:'backstage', image:'assets/art/encore.svg', alt:'Moody empty stage after a live performance' }
