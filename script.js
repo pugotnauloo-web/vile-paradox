@@ -95,11 +95,11 @@ const manager = {
 
 // Replace an image path with your own image (JPG, PNG, or WebP) to customize the gallery.
 const gallery = [
-  { title:'BLUE HOUR', category:'live', photos:'assets/portraits/blue.png', alt:'assets/portraits/blue.png' },
+  { title:'BLUE HOUR', category:'live', image:'assets/portraits/blue.png', alt:'Blue hour live performance' },
   { title:'INNER FREQUENCIES', category:'artwork', image:'assets/portraits/staticinourminds.webp', alt:'Abstract red frequency artwork' },
   { title:'BEFORE THE NOISE', category:'backstage', image:'assets/art/backstage.svg', alt:'Minimal illustration of a backstage passageway' },
-  { title:'AFTERIMAGE', category:'live', photos:'assets/portraits/red.png', alt:'assets/portraits/red.png' },
-  { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'assets/portraits/red.png' },
+  { title:'AFTERIMAGE', category:'live', image:'assets/portraits/red.png', alt:'Red-lit live performance' },
+  { title:'PURPLE STATIC', category:'artwork', image:'assets/art/purple-static.svg', alt:'Purple abstract static artwork' },
   { title:'THE LAST ENCORE', category:'backstage', image:'assets/art/encore.svg', alt:'Moody empty stage after a live performance' }
 ];
 
